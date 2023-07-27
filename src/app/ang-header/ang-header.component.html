@@ -1,0 +1,33 @@
+<header>
+    <div class="header-top">
+        <div class="header-top-menu">
+            <div (click)="changeMenu()" class="aws-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="header-top-panier">
+            <div class="aws-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="aws-icon">
+                <i class="fa-solid fa-user"></i>
+            </div> 
+        </div>
+    </div>
+    <div class="header-bot">
+        <div class="search">
+            <input type="text" placeholder="Recherche">
+            <div class="search-aws-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="filtre">
+            <div class="aws-icon">
+                <i class="fa-solid fa-arrow-down-short-wide"></i>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+<app-ang-menu-nav *ngIf="menu"></app-ang-menu-nav>

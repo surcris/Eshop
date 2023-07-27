@@ -1,0 +1,11 @@
+<main>
+    <app-ang-cate-produit></app-ang-cate-produit>
+    <div class="container-articles">
+        <div *ngFor="let article of listeArticles" class="article">
+            <div class="image"></div>
+            <p>{{article.titre}}</p>
+            <p>{{article.prix}} €</p>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+    </div>
+</main>

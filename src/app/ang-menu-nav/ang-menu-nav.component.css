@@ -1,0 +1,21 @@
+
+
+@media (max-width:900px) {
+    .menu-nav{
+        background-color: rgb(177, 177, 177);
+        border-radius: 5px;
+        position: absolute;
+        z-index: 2;
+        top: 40px;
+        left: 0px;
+    }
+    .menu-nav div{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 100px;
+    }
+    p{
+        font-size: clamp(1em,1.4em,2em);
+    }
+}
